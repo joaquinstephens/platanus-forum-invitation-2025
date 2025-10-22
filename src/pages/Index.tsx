@@ -546,9 +546,9 @@ const Index = () => {
              <p className="font-normal text-inherit mb-6">
                Since no trip to Chile is complete without the mountains, we’re organizing a two-day, one-night horseback expedition in the Andes.
              </p>
-             <p className="font-normal text-inherit mb-6">
-               We’re keeping it small—10 to 15 people, a mix of invited founders and other fascinating folks. We expect plenty of good conversations, asados, stunning landscapes, and a night under some of the world’s starriest skies.
-             </p>
+            <p className="font-normal text-inherit mb-6">
+              We're keeping it small—10 to 15 people, a mix of invited founders and other fascinating folks. We expect plenty of good conversations, asados, stunning landscapes, and a night under some of the world's starriest skies. Find more information in <a href="https://cabalgata.platan.us/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:underline">this link</a>.
+            </p>
 
             {/* Horseback riding images grid */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 mt-6 mb-8">
@@ -597,7 +597,7 @@ const Index = () => {
               If you are interested or want to chat a little bit more about this you can write to joaquin@platan.us or Whatsapp him at <a href="https://wa.me/56982994346?text=Hey%20Joaco,%20thanks%20for%20the%20invitation%20to%20Platanus%20Forum.%20Could%20you%20give%20me%20more%20details%3f" target="_blank" rel="noopener noreferrer" className="text-primary underline">+56 9 8299 4346</a>.
             </p>
 
-            <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-4">Confirmed Attendees for 2025</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-4">Confirmed Speakers for 2025</h2>
             <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 justify-center mb-8 items-center">
               <a href="https://www.linkedin.com/in/ignacio-belieres-montero-14b457b6/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 sm:w-48 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
                 <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden mb-3">
@@ -612,6 +612,13 @@ const Index = () => {
                 </div>
                 <p className="text-sm sm:text-base font-normal text-primary text-center mb-1">Roman Teslyuk</p>
                 <p className="text-sm font-normal text-inherit text-center">Earth AI</p>
+              </a>
+              <a href="https://www.linkedin.com/in/rogeliorea/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 sm:w-48 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
+                <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden mb-3">
+                  <img src="/lovable-uploads/roger.jpeg" alt="Roger Rea" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
+                </div>
+                <p className="text-sm sm:text-base font-normal text-primary text-center mb-1">Roger Rea</p>
+                <p className="text-sm font-normal text-inherit text-center">Grupalia</p>
               </a>
             </div>
             </div>
